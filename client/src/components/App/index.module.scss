@@ -1,0 +1,22 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.paper {
+    width: 90%;
+
+    padding: 24px;
+    box-sizing: border-box;
+
+    @media screen and (min-width: 768px) {
+        width: 50%;
+    }
+}
+
+.grid {
+    max-height: 450px;
+    overflow-y: scroll;
+}
